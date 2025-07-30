@@ -1,0 +1,35 @@
+{
+    "name": "arshidkv12/data-request",
+    "description": "A Laravel FormRequest base class that auto-assigns validated data to properties.",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+        "Arshidkv12\\DataRequest\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arshidkv12\\DataRequest\\DataRequestServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/http": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "orchestra/testbench": "^8.0"
+    },
+        "autoload-dev": {
+            "psr-4": {
+                "Tests\\": "tests/"    
+            }
+        },
+    "scripts": {
+        "test": "phpunit"
+    }
+}

@@ -1,0 +1,21 @@
+<?php
+
+namespace {{ namespace }};
+
+use Arshidkv12\DataRequest\FormDataRequest;
+
+class {{ class }} extends FormDataRequest
+{
+
+    public function authorize(): bool
+    {
+        return true;
+    }
+
+    public function rules(): array
+    {
+        return [
+
+        ];
+    }
+}
