@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Tested Laravel Versions](https://img.shields.io/badge/laravel-10%20%7C%2011%20%7C%2012-orange.svg?style=flat-square)](#)
 
-**DataRequest** is a base `FormRequest` laravel class for Laravel that auto-assigns validated input data to public typed properties — for cleaner, type-safe form handling.
+**FormDataRequest** is a base `FormRequest` laravel class for Laravel that auto-assigns validated input data to public typed properties — for cleaner, type-safe form handling.
 
 ---
 
